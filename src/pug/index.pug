@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Grayscale - Start Bootstrap Theme
+        title Bibin Dvor
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') Bibin Dvor
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
@@ -36,7 +36,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#projects') Projects
+                            a.nav-link(href='#amenities') Amenities
                         li.nav-item
                             a.nav-link(href='#signup') Contact
 
@@ -45,38 +45,83 @@ html(lang='en')
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        h1.mx-auto.my-0.text-uppercase Grayscale
-                        h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
-                        a.btn.btn-primary(href='#about') Get Started
+                        h1.mx-auto.my-0.text-uppercase BIBIN DVOR
+                        h2.text-white-50.mx-auto.mt-2.mb-5 Welcome to our relaxation paradise.
+                        a.btn.btn-primary(href='#about') See More
 
         // About
         section#about.about-section.text-center
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-8
-                        h2.text-white.mb-4 Built with Bootstrap 5
+                        h2.text-white.mb-4 Private, quiet, perfect
                         p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
-                img.img-fluid(src='assets/img/ipad.png', alt='...')
+                            | Far away from the city traffic but still so close to civilization to make it your perfect holiday destination.
+                img.img-fluid(src='assets/img/top.jpg', alt='...')
 
         // Projects
-        section#projects.projects-section.bg-light
+        section#amenities.projects-section.bg-light
             .container.px-4.px-lg-5
-                // Featured Project Row
-                .row.gx-0.mb-4.mb-lg-5.align-items-center
-                    .col-xl-8.col-lg-7
-                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
-                    .col-xl-4.col-lg-5
-                        .featured-text.text-center.text-lg-left
-                            h4 Shoreline
-                            p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                h1 Amenities
+                .row.gx-5
+                    .col-lg-4.mb-5
+                        .card.h-100.shadow.border-0
+                            img.card-img-top(src='https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/05/split-croatia-istock.jpg', alt='...')
+                            .card-body.p-4
+                                .badge.bg-primary.bg-gradient.rounded-pill.mb-2 1 hour drive
+                                h5.card-title.mb-3 City of Split
+                                p.card-text.mb-0
+                                    | 1700 years of heritage... BLA BLA
+                            .card-footer.p-4.pt-0.bg-transparent.border-top-0
+                                a(href='https://goo.gl/maps/seta6EtGDdGj3T3F7') Get directions
+                    .col-lg-4.mb-5
+                        .card.h-100.shadow.border-0
+                            img.card-img-top(src='https://cdn.theculturetrip.com/wp-content/uploads/2016/05/dubrovnik.jpg', alt='...')
+                            .card-body.p-4
+                                .badge.bg-primary.bg-gradient.rounded-pill.mb-2 2.5 hour drive
+                                h5.card-title.mb-3 City of Dubrovnik
+                                p.card-text.mb-0
+                                    | Game of thrones...
+                            .card-footer.p-4.pt-0.bg-transparent.border-top-0
+                                a(href='https://goo.gl/maps/x7Sgp63B6rHronkt5') Get directions
+                    .col-lg-4.mb-5
+                        .card.h-100.shadow.border-0
+                            img.card-img-top(src='https://croatia.hr/sites/default/files/styles/image_full_width/public/2018-05/omis-optimizirano-za-web-ivo-biocina.jpg?itok=3imc4DER', alt='...')
+                            .card-body.p-4
+                                .badge.bg-primary.bg-gradient.rounded-pill.mb-2 Less than hour
+                                h5.card-title.mb-3 City of Omis
+                                p.card-text.mb-0
+                                    | River Cetina...
+                            .card-footer.p-4.pt-0.bg-transparent.border-top-0
+                                a(href='https://goo.gl/maps/5mzCg192YCK5dyKE9') Get directions
+                    .col-lg-4.mb-5
+                        .card.h-100.shadow.border-0
+                            img.card-img-top(src='https://cdn.tourcms.com/a/9338/60/1/large.jpg', alt='...')
+                            .card-body.p-4
+                                .badge.bg-primary.bg-gradient.rounded-pill.mb-2 1 hour drive
+                                h5.card-title.mb-3 Medugorje
+                                p.card-text.mb-0
+                                    | Madonna...
+                            .card-footer.p-4.pt-0.bg-transparent.border-top-0
+                                a(href='https://goo.gl/maps/x28beKkFGgVNvieq7') Get directions
+                    .col-lg-4.mb-5
+                        .card.h-100.shadow.border-0
+                            img.card-img-top(src='https://imotski.hr/wp-content/uploads/2017/11/600.jpg', alt='...')
+                            .card-body.p-4
+                                .badge.bg-primary.bg-gradient.rounded-pill.mb-2 Less than an hour
+                                h5.card-title.mb-3 Blue Lake in Imotski
+                                p.card-text.mb-0
+                                    | Madonna...
+                            .card-footer.p-4.pt-0.bg-transparent.border-top-0
+                                a(href='https://goo.gl/maps/At8udPvP7D5yRvK7A') Get directions
                 // Project One Row
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                img.img-fluid(src='', alt='...')
+                                hr.my-4.mx-auto
+                                .small.text-black-50 4923 Market Street, Orlando FL
                     .col-lg-6
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
